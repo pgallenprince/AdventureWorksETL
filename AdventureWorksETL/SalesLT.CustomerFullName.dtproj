@@ -15,7 +15,7 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{555831b0-d730-436a-81bf-e545e046070c}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">AdventureWorksETL</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">SalesLT</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
@@ -26,11 +26,11 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DESKTOP</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx5MnM3vGJ0Stkk9cWF8ocQAAAAACAAAAAAAQZgAAAAEAACAAAADV68p/x9PTX+lVrCOnA9EqWky63lw58eN5KOPIxNt0XQAAAAAOgAAAAAIAACAAAACS5+7gy8rr2RF10msItZ3GLp6LqN+Q48N+t889Il6dJpAAAADc/SwiATOY5e+86e5muPYaNW9vxyWYxh2NnDsHLKoYfRitweZqXShQS0Wb42hnRHGFwkqgSarqqMaJciw2ORnZRnoxREjZcad1W9ylU977VZFTJvAmvpHdI/cgxuf2ZAL+w1XEA7osb+JcIarIyXZsFAbYxcsqmuyIyWwI33blcpLILbchcJtLcIXHZZbhqP5AAAAANjeYQuBjDUNdHmFBchch6itXt7+pKf89T+1pbnkrYN0trLkS1zVjKUD5r9i2voZaPv6m3i+nxI8/SUEC70VnXg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx5MnM3vGJ0Stkk9cWF8ocQAAAAACAAAAAAAQZgAAAAEAACAAAAAJ4fOyOCkkDBpnlGbP6THp9YuDVpKz+Y+ZaIVsaMnkCQAAAAAOgAAAAAIAACAAAAAdHIt0JW8bVMQt/u9JZxU42Hi+y67s++kgD3iIMzzdoJAAAACU57CLzz17vJvt0llhSrRwIfO/p9+s2yT6Zk5xCbD4rlpe88qIipasod24kuemU/UX7BhI5VHrhE1CpOqtzGL/pT0+BNwh4Uuxpc+KWMp4TSC5N/jmYFAmVBpXXqv6TCAf7+lsIw07tI+DV7wnvmsrYO0cfXRzJ7I4h6vYPhX0xV4GPtpF/oI5nndkK+6LDiJAAAAAeHl/moq8eQH3JChp3VFc7LSir93k+9604POmmzz4D2+YhRGT6M6aRvhFXnt8yJtGA6DJQr2MzGVO800GpybaiA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
-          <SSIS:Package SSIS:Name="Package.dtsx" SSIS:EntryPoint="1" />
+          <SSIS:Package SSIS:Name="SalesLT.CustomerFullName.dtsx" SSIS:EntryPoint="1" />
         </SSIS:Packages>
         <SSIS:ConnectionManagers>
           <SSIS:ConnectionManager SSIS:Name="cmgr_etlinazurecookbook.database.windows.net.AdventureWorksLT.ETLAdmin.conmgr" />
@@ -158,16 +158,16 @@
             </SSIS:Parameter>
           </SSIS:ProjectConnectionParameters>
           <SSIS:PackageInfo>
-            <SSIS:PackageMetaData SSIS:Name="Package.dtsx">
+            <SSIS:PackageMetaData SSIS:Name="SalesLT.CustomerFullName.dtsx">
               <SSIS:Properties>
-                <SSIS:Property SSIS:Name="ID">{45A83F17-E441-41AF-9BE2-6B6B156D252E}</SSIS:Property>
-                <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
+                <SSIS:Property SSIS:Name="ID">{27B1F170-2721-43D4-AF47-FFB060D80B8B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="Name">SalesLT CustomerFullName</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">2</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{BBEC3626-BC11-4C46-92C7-D3B8FE420D56}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{631CDE1D-F9A6-414B-9C1C-56C01EE73B51}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
