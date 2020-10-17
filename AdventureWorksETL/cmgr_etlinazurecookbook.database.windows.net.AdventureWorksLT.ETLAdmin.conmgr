@@ -8,7 +8,7 @@
       DTS:ConnectionString="Data Source=etlinazurecookbook1.database.windows.net;User ID=ETLAdmin;Initial Catalog=AdventureWorksLT;Provider=SQLNCLI11.1;Auto Translate=False;">
       <DTS:Password
         DTS:Name="Password"
-        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx5MnM3vGJ0Stkk9cWF8ocQAAAAACAAAAAAAQZgAAAAEAACAAAABD1sslpk85PUSK7w3LliRykSjbv8qujPxBs0mN+JsugQAAAAAOgAAAAAIAACAAAACnGFOkIzKIjQUmAoBMA5/sRLHkjeygMIvIC/Cs8yyEhoAAAACOOtaqNA6OJkomhibCJBcQS1JkTh8Mzk2bDq3Cg3KLiwpgyoWsWmhjELgk9i5qClX36YKn4W9ErSeZnhyNDxhQsUHrt73jBA4eta35l0z6AFS2IbUqKxKZkCvO0zVcrhhnBQvl98ox3CoD8AYyl6ByjmB6ioV3Lv0HruSVj4sqnkAAAABDTfk0q2zDOfrfiH6qp7foURsVaeCHRoAs1k82fekq0vAQtpTnDlwoS/x/SaqJFjFXNsLsgdZYgupIN5EJxAyK</DTS:Password>
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx5MnM3vGJ0Stkk9cWF8ocQAAAAACAAAAAAAQZgAAAAEAACAAAAAMhOVUTWGct1F1s8MM7bQzlEmD23Z4yOIQ+SGUTul6TQAAAAAOgAAAAAIAACAAAADAD4MFDQSwGwYyJrZDBYE7izOaTU6O1YexpCEa2PV3/IAAAACUrO3rePMgoHz4DtoTrCgRt7uLRrl0y2mlHYLJzGpOaOa/Z8AJh1OrcuVgZUW2s5hR68fFUD5EwOnYJYfEtDHkWxPXj76ugj/GXIXx3RZMaIbfvmoequVtBtDCyShvlQUe2rJ/nS1nsp4FHb8te0eMG4y/T1WBdRVHVct+o36d7EAAAABOp22/l1uVWHKSZX3ZN6ptirx+QwgKRpfly1Ysxg6gwUqTX/nsZJclrv2913sTrndvK6C15JcFcv2NbqmMiQlu</DTS:Password>
     </DTS:ConnectionManager>
   </DTS:ObjectData>
 </DTS:ConnectionManager>
